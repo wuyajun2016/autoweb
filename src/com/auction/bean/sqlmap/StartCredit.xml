@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE sqlMap      
+    PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"      
+    "./sql-map-2.dtd">
+
+<sqlMap namespace="StartCredit">
+
+	<typeAlias alias="StCredit" type="com.auction.bean.StartCredit" />
+
+	<resultMap id="UserInfoResult" class="StCredit">
+		<result property="customerName" column="customerName" />
+		<result property="identifyType" column="identifyType" />
+		<result property="identifyNo" column="identifyNo" />
+		<result property="maritalStatus" column="maritalStatus" />
+		<result property="investigationBank" column="investigationBank" />
+		<result property="cellPhone" column="cellPhone" />
+	</resultMap>
+
+	<select id="getUserByParam1" parameterClass="String" resultMap="UserInfoResult">
+		select customerName,identifyType,identifyNo,maritalStatus,investigationBank,cellPhone from tb_BusinessSet where
+		id=#id#
+	</select>
+
+	<insert id="addcredit" parameterClass="StCredit">
+		insert into
+		tb_StartCredit(customerName,identifyType,identifyNo,maritalStatus,investigationBank,cellPhone) values
+		(#customerName#,#identifyType#,#identifyNo#,#maritalStatus#,#investigationBank#,#cellPhone#)
+    </insert>
+</sqlMap>

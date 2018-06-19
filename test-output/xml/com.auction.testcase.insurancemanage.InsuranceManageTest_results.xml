@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AuctionWebTest_googlechrome"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="22.465">
+  <properties />
+  
+  
+            <testcase name="InsuranceManage" time="22.465" classname="com.auction.testcase.insurancemanage.InsuranceManageTest" />
+      
+</testsuite>

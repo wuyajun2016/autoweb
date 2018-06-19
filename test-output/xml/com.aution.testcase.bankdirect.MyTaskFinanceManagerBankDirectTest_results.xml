@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AuctionWebTest_googlechrome"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="18.670">
+  <properties />
+  
+  
+            <testcase name="myTaskFinanceManager" time="18.670" classname="com.aution.testcase.bankdirect.MyTaskFinanceManagerBankDirectTest" />
+      
+</testsuite>

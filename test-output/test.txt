@@ -1,0 +1,2 @@
+com.auction.testcase.LogonTest testLogin 2018-06-19 15:48:22 1663∫¡√Î SUCCESS
+com.auction.testcase.BusinessFilesTest businessFileTest 2018-06-19 15:48:23 6389∫¡√Î SUCCESS

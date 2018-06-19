@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AuctionWebTest_googlechrome"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="57.520">
+  <properties />
+  
+  
+            <testcase name="SecondCarPreEvaluation" time="57.520" classname="com.auction.testcase.secondcar.SecondCarReEvaluationTest" />
+      
+</testsuite>

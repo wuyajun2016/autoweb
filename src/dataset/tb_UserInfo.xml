@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataset>
+	<tb_UserInfo method="testLogin" username="10064065A" password="alog@123"
+		vercode="666888" />
+</dataset>

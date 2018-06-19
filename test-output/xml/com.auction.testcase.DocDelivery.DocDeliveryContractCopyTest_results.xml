@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AuctionWebTest_googlechrome"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="35.029">
+  <properties />
+  
+  
+            <testcase name="DocDeliveryContractCopy" time="35.029" classname="com.auction.testcase.DocDelivery.DocDeliveryContractCopyTest" />
+      
+</testsuite>

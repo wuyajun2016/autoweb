@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AuctionWebTest_googlechrome"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="81.618">
+  <properties />
+  
+  
+            <testcase name="myTaskOfficeInput" time="81.176" classname="com.auction.testcase.MyTaskOfficeInputTest" />
+                <testcase name="testLogin" time="0.442" classname="com.auction.testcase.MyTaskOfficeInputTest" />
+      
+</testsuite>

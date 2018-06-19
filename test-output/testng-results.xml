@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AuctionWebTest" duration-ms="8318" started-at="2018-06-19T07:48:21Z" finished-at="2018-06-19T07:48:30Z">
+    <groups>
+      <group name="LogonTest">
+        <method signature="LogonTest.testLogin()[pri:0, instance:com.auction.testcase.LogonTest@1f59a598]" name="testLogin" class="com.auction.testcase.LogonTest"/>
+      </group> <!-- LogonTest -->
+      <group name="BusinessFilesTest">
+        <method signature="BusinessFilesTest.businessFileTest()[pri:0, instance:com.auction.testcase.BusinessFilesTest@1e178745]" name="businessFileTest" class="com.auction.testcase.BusinessFilesTest"/>
+      </group> <!-- BusinessFilesTest -->
+    </groups>
+    <test name="AuctionWebTest_googlechrome" duration-ms="8318" started-at="2018-06-19T07:48:21Z" finished-at="2018-06-19T07:48:30Z">
+      <class name="com.framework.webdriver.testcase.InitWebdriverTest">
+        <test-method status="PASS" signature="beforeTestSuite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.framework.webdriver.testcase.InitWebdriverTest@291caca8]" name="beforeTestSuite" is-config="true" duration-ms="5511" started-at="2018-06-19T15:48:16Z" finished-at="2018-06-19T15:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[googlechrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[C:/Program Files (x86)/Google/Chrome/Application/chrome.exe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://oms.boss.alog.cc/index]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestSuite -->
+        <test-method status="PASS" signature="afterTestSuite()[pri:0, instance:com.framework.webdriver.testcase.InitWebdriverTest@291caca8]" name="afterTestSuite" is-config="true" duration-ms="1120" started-at="2018-06-19T15:48:30Z" finished-at="2018-06-19T15:48:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestSuite -->
+      </class> <!-- com.framework.webdriver.testcase.InitWebdriverTest -->
+      <class name="com.auction.testcase.LogonTest">
+        <test-method status="PASS" signature="beforeClassTest()[pri:0, instance:com.auction.testcase.LogonTest@1f59a598]" name="beforeClassTest" is-config="true" duration-ms="244" started-at="2018-06-19T15:48:21Z" finished-at="2018-06-19T15:48:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.auction.testcase.LogonTest@1f59a598]" name="testLogin" duration-ms="1663" started-at="2018-06-19T15:48:22Z" finished-at="2018-06-19T15:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterClassTest()[pri:0, instance:com.auction.testcase.LogonTest@1f59a598]" name="afterClassTest" is-config="true" duration-ms="1" started-at="2018-06-19T15:48:23Z" finished-at="2018-06-19T15:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.auction.testcase.LogonTest -->
+      <class name="com.auction.testcase.BusinessFilesTest">
+        <test-method status="PASS" signature="beforeClassTest()[pri:0, instance:com.auction.testcase.BusinessFilesTest@1e178745]" name="beforeClassTest" is-config="true" duration-ms="1" started-at="2018-06-19T15:48:23Z" finished-at="2018-06-19T15:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method status="PASS" signature="businessFileTest()[pri:0, instance:com.auction.testcase.BusinessFilesTest@1e178745]" name="businessFileTest" duration-ms="6389" started-at="2018-06-19T15:48:23Z" finished-at="2018-06-19T15:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- businessFileTest -->
+        <test-method status="PASS" signature="afterClassTest()[pri:0, instance:com.auction.testcase.BusinessFilesTest@1e178745]" name="afterClassTest" is-config="true" duration-ms="3" started-at="2018-06-19T15:48:30Z" finished-at="2018-06-19T15:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.auction.testcase.BusinessFilesTest -->
+    </test> <!-- AuctionWebTest_googlechrome -->
+  </suite> <!-- AuctionWebTest -->
+</testng-results>

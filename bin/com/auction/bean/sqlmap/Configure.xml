@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE sqlMap      
+    PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"      
+    "./sql-map-2.dtd">
+
+<sqlMap namespace="Configure">
+
+	<typeAlias alias="loanConfigure" type="com.auction.bean.Configure" />
+
+	<resultMap id="loanConfigureResult" class="loanConfigure">
+		<result property="maritalStatus" column="maritalStatus" />
+		<result property="relationship" column="relationship" />
+		<result property="guarantor" column="guarantor" />
+		<result property="customeralready" column="customeralready" />
+		<result property="carname" column="carname" />
+	</resultMap>
+
+	<select id="getUserByParam1" parameterClass="String" resultMap="loanConfigureResult">
+		select maritalStatus,relationship,guarantor,customeralready,carname from tb_Configure where
+		method=#method#
+	</select>
+</sqlMap>
